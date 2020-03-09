@@ -1,12 +1,10 @@
 const express = require('express');
 const app = express();
-const axios = require('axios').default;
 const fetch = require("node-fetch");
 const jwt = require('express-jwt');
 const jwtAuthz = require('express-jwt-authz');
 const jwksRsa = require('jwks-rsa');
 const cors = require('cors');
-const request = require('request');
 require('dotenv').config();
 
 if (!process.env.AUTH0_DOMAIN || !process.env.AUTH0_AUDIENCE) {
