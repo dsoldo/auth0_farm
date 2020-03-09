@@ -47,7 +47,7 @@ The sample includes these endpoints:
 * An unprotected endpoint which returns a message on success. Does not require a valid JWT access token.
 
 **GET** /api/private
-* A protected endpoint which returns a message on success. Requires a valid JWT access token with a `scope` of `read:messages`.
+* A protected endpoint which returns a message on success. Requires a valid JWT access token.
 
 ## License
 
