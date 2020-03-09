@@ -10,7 +10,7 @@ Clone the repo or download it from the Express API quickstart page in Auth0's do
 
 ## Setup the `.env` File
 
-If you download this sample from the Express API quickstart page, a `.env` file will come pre-populated with your API identifier and Auth0 domain. If you clone the repo from GitHub, you will need to rename `default.env` to `.env` and provide these values manually.
+If you clone the repo from GitHub, you will need to rename `default.env` to `.env` and provide these values manually [dashboard](https://manage.auth0.com).
 
 ## Install the Dependencies and Start the API
 
@@ -19,9 +19,11 @@ npm install
 npm start
 ```
 
+For each API
+
 The API will be served at `http://localhost:${PORT}`.
 
-The idea is to show example using Auth0 how to communicate between multiple APIs
+The idea is to show example how to use JWT_TOKEN (Auth0) and to communicate between multiple APIs
 
 ## EXAMPLE
 
@@ -31,7 +33,7 @@ http://localhost:${PORT}/api/public
 On the other side, each API has Private Endpoint (Requires a valid JWT access token)
 http://localhost:${PORT}/api/private
 
-In the Sales Manager API there is an Endpoint which fetch data from other APIs (DMS and X_Project including Sales Manger using Bearer Token)
+In the Sales Manager API there is an Endpoint which fetch data from other APIs (DMS and X_Project including Sales Manger using JWT_TOKEN)
 http://localhost:1111/api/communicate
 
 #####Postman CALL Example
