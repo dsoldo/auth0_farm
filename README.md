@@ -10,7 +10,7 @@ Clone the repo or download it from the Express API quickstart page in Auth0's do
 
 ## Setup the `.env` File
 
-If you download this sample from the Express API quickstart page, a `.env` file will come pre-populated with your API identifier and Auth0 domain. If you clone the repo from GitHub, you will need to rename `.env.example` to `.env` and provide these values manually.
+If you download this sample from the Express API quickstart page, a `.env` file will come pre-populated with your API identifier and Auth0 domain. If you clone the repo from GitHub, you will need to rename `default.env` to `.env` and provide these values manually.
 
 ## Install the Dependencies and Start the API
 
@@ -34,6 +34,8 @@ http://localhost:${PORT}/api/private
 In the Sales Manager API there is an Endpoint which fetch data from other APIs (DMS and X_Project including Sales Manger using Bearer Token)
 http://localhost:1111/api/communicate
 
+#####Postman CALL Example
+![GitHub Logo](lib/images/example_communication.png)
 
 ## Endpoints
 
