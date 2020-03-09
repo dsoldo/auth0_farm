@@ -91,12 +91,6 @@ app.get('/api/communicate', checkJwt, async function (req, res) {
     res.json(myData);
 });
 
-app.get('/api/scope', checkJwt, checkScopes, function (req, res) {
-    res.json({
-        message: 'You can read this because you have SCOPE -> read:api'
-    });
-});
-
 app.use(function (err, req, res, next) {
     console.error(err.stack);
     return res.status(err.status).json({message: err.message});
