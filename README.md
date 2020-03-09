@@ -36,7 +36,7 @@ http://localhost:${PORT}/api/private
 In the Sales Manager API there is an Endpoint which fetch data from other APIs (DMS and X_Project including Sales Manger using JWT_TOKEN)
 http://localhost:1111/api/communicate
 
-##Postman CALL Example
+## Postman CALL Example
 
 ![GitHub Logo](lib/images/example_communication.png)
 
